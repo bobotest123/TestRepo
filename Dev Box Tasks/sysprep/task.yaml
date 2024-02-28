@@ -1,0 +1,9 @@
+# This is a Chocolatey package installation task for Dev Box.
+
+$schema: 1.0
+name: sysprep
+description: Run sysprep script.
+author: Microsoft Corporation
+command: "./Sysprep.ps1"
+documentation:
+  notes: This task is used to sysprep.
