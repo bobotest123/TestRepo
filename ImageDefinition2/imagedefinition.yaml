@@ -2,6 +2,8 @@ $schema: 1.0
 name: angel-testing
 image: microsoftwindowsdesktop_windows-ent-cpc_win11-21h2-ent-cpc-m365
 tasks:
-    - name: choco
+    - name: git-clone
+      description: Clone this repository into C:\Workspaces
       parameters:
-        package: notepadplusplus
+        repositoryUrl: https://github.com/microsoft/calculator
+        directory: C:\Workspaces
