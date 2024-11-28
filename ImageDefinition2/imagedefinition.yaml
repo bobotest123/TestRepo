@@ -1,6 +1,6 @@
 $schema: 1.0
 name: angel-testing
-image: microsoftwindowsdesktop_windows-ent-cpc_win10-22h2
+image: microsoftwindowsdesktop_windows-ent-cpc_win10-22h2-ent-cpc-m365
 tasks:
     - name: git-clone
       description: Clone this repository into C:\Workspaces
