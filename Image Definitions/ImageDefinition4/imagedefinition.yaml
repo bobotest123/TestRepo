@@ -1,0 +1,9 @@
+$schema: 1.0
+name: image_gallery_gitclone
+image: microsoftwindowsdesktop_windows-ent-cpc_win11-23h2-ent-cpc
+tasks:
+    - name: ~/GitClone
+      description: Clone this repository into C:\Workspaces
+      parameters:
+        repositoryUrl: https://github.com/microsoft/calculator
+        directory: C:\Workspaces
