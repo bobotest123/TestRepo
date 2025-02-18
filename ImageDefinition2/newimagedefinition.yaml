@@ -1,0 +1,9 @@
+$schema: 1.0
+name: testGitClone
+image: microsoftvisualstudio_visualstudio2019plustools_vs-2019-ent-general-win11-m365-gen2
+tasks:
+    - name: ~/GitClone
+      description: Clone this repository into C:\Workspaces
+      parameters:
+        repositoryUrl: https://github.com/microsoft/calculator
+        directory: C:\Workspaces
