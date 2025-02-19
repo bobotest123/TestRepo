@@ -2,7 +2,7 @@ $schema: 1.0
 name: image_gallery_gitclone
 image: microsoftwindowsdesktop_windows-ent-cpc_win11-23h2-ent-cpc-m365
 tasks:
-    - name: ~/gitclone
+  - name: ~/gitclone
     parameters:
       repositoryUrl: https://devdiv.visualstudio.com/OnlineServices/_git/azure-devcenter
       directory: C:\\code
