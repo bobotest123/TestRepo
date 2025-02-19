@@ -3,7 +3,7 @@ name: image_gallery_gitclone
 image: microsoftvisualstudio_visualstudioplustools_vs-2022-ent-general-win11-m365-gen2
 tasks:
     - name: ~/GitClone
-      description: Clone this repository into C:\Workspaces
-      parameters:
-        repositoryUrl: https://github.com/microsoft/calculator
-        directory: C:\Workspaces
+    parameters:
+      repositoryUrl: https://devdiv.visualstudio.com/OnlineServices/_git/azure-devcenter
+      directory: C:\\code
+      pat: '{{ado}}'
