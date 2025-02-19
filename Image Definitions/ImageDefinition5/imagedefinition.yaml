@@ -1,0 +1,10 @@
+$schema: 1.0
+name: sc2_vs_imaging
+image: microsoftvisualstudio_visualstudio2019plustools_vs-2019-ent-general-win11-m365-gen2
+tasks:
+    - name: ~/gitclone
+      description: Clone this repository into C:\Workspaces
+      parameters:
+        repositoryUrl: https://devdiv.visualstudio.com/OnlineServices/_git/azure-devcenter
+        directory: C:\\code
+        pat: '{{ado}}'
