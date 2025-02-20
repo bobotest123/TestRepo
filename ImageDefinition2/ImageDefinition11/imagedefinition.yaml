@@ -1,8 +1,11 @@
 $schema: 1.0
 name: sc1_vs_imaging
 image: microsoftvisualstudio_visualstudioplustools_vs-2022-ent-general-win11-m365-gen2
-tasks:
-  - name: git-clone
+setupTasks:
+  - task: powershell
+    inputs:
+      command: "New-Item -Path C:\\ -Name 'code' -ItemType 'directory'"
+  - task: git-clone
     inputs:
       repositoryUrl: https://github.com/microsoft/devcenter-catalog.git
-      directory: C:\\code
+      directory: C:\\cod
