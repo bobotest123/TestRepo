@@ -1,0 +1,9 @@
+$schema: 1.0
+name: sc5-image_gallery
+image: microsoftwindowsdesktop_windows-ent-cpc_win10-22h2-ent-cpc-m365
+tasks:
+  - name: git-clone
+    parameters:
+      repositoryUrl: https://github.com/Dorisls/LJ-fork-Deployment-Environments-PrivatePreview.git
+      directory: C:\\code
+      pat: '{{https://key-bo.vault.azure.net/secrets/pat-23/758ef30fa11946de8d73ac9b3f77ec4f}}'

@@ -1,0 +1,9 @@
+$schema: 1.0
+name: sc4-image_gallery
+image: microsoftwindowsdesktop_windows-ent-cpc_win11-23h2-ent-cpc-m365
+tasks:
+  - name: git-clone
+    parameters:
+      repositoryUrl: https://devdiv.visualstudio.com/OnlineServices/_git/azure-devcenter
+      directory: C:\\code
+      pat: '{{https://key-bo.vault.azure.net/secrets/task-0213/88d8d753658c481da2dee652280e4e8c}}'
