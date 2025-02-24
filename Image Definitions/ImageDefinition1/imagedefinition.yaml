@@ -1,5 +1,5 @@
 $schema: 1.0
-name: vs_imagingGitClone
+name: vs_imagingGitClone1
 image: microsoftvisualstudio_visualstudioplustools_vs-2022-ent-general-win11-m365-gen2
 tasks: 
   - name: ~/gitclone
