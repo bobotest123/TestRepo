@@ -3,8 +3,7 @@ name: sc2_vs_imaging
 image: microsoftvisualstudio_visualstudio2019plustools_vs-2019-ent-general-win11-m365-gen2
 tasks:
     - name: ~/GitClone
-      description: Clone this repository into C:\Workspaces
       parameters:
-        repositoryUrl: https://devdiv.visualstudio.com/OnlineServices/_git/azure-devcenter
+        repositoryUrl: https://github.com/Dorisls/LJ-fork-Deployment-Environments-PrivatePreview.git
         directory: C:\\code
-        pat: '{{ado}}'
+        pat: '{{https://key-bo.vault.azure.net/secrets/pat-23/758ef30fa11946de8d73ac9b3f77ec4f}}'
