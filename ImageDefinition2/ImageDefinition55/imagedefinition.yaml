@@ -1,6 +1,6 @@
 $schema: 1.0
 name: sc5-image_gallery
-image: microsoftvisualstudio_visualstudioplustools_vs-2022-ent-general-win11-m365-gen2
+image: microsoftvisualstudio_visualstudio2019plustools_vs-2019-ent-general-win11-m365-gen2
 tasks:
   - name: git-clone
     parameters:
