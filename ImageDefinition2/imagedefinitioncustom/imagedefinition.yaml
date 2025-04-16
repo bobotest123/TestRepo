@@ -1,0 +1,9 @@
+$schema: 1.0
+name: customTest
+image: acg_bo_0313/vm-definition-bo-0313
+tasks:
+    - name: git-clone
+      description: Clone this repository into C:\SC1
+      parameters:
+        repositoryUrl: https://github.com/microsoft/calculator
+        directory: C:\SC1
