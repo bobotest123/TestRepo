@@ -1,6 +1,6 @@
 $schema: 1.0
 name: customTest
-image: acg_bo_0417/vm-definition-0417
+image: acg_bo_417_test/vm-definition-test
 tasks:
     - name: git-clone
       description: Clone this repository into C:\SC1
