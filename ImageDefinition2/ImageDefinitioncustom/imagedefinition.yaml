@@ -1,6 +1,6 @@
 $schema: 1.0
 name: customwingetVScode
-image: LJ_0515_westus3_acg/LJ-vm-definition-win11-hibernate-supported@2025.05.15
+image: acg_bo_417_test/vm-definition-test@1.0.0
 tasks:
     - name: quickstart-devbox-tasks/winget
       description: Install Visual Studio Code
