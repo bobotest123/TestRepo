@@ -1,0 +1,8 @@
+$schema: 1.0
+name: customwinget
+image: acg_bo_417_test/vm-definition-test@1.0.0
+tasks:
+    - name: quickstart-devbox-tasks/winget
+      description: Install Visual Studio Code
+      parameters:
+        package:  Microsoft.VisualStudioCode
