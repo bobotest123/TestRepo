@@ -1,8 +1,9 @@
 $schema: 1.0
-name: customwinget
-image: acg_bo_417_test/vm-definition-test@1.0.0
+name: customTest
+image: acg_bo_417_test/vm-definition-test@1.0.1
 tasks:
-    - name: quickstart-devbox-tasks/winget
-      description: Install Visual Studio Code
+    - name: git-clone
+      description: Clone this repository into C:\SC1
       parameters:
-        package:  Microsoft.VisualStudioCode
+        repositoryUrl: https://github.com/microsoft/calculator
+        directory: C:\SC1
