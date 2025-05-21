@@ -6,4 +6,4 @@ tasks:
     parameters:
       repositoryUrl: https://devdiv.visualstudio.com/OnlineServices/_git/azure-devcenter
       directory: C:\\code
-      pat: '{{https://key-bo.vault.azure.net/secrets/task-0506/9ad658ea6f1e48b69ed67d4cb8c2a30b}}'
+      pat: '{{https://key-bo.vault.azure.net/secrets/task-0521/4bfc4a8d20b44b449f209da2089a2228}}'
