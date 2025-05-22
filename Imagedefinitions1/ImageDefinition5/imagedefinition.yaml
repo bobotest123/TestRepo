@@ -2,7 +2,7 @@ $schema: 1.0
 name: vs_imagingGitClone5
 image: microsoftwindowsdesktop_windows-ent-cpc_win11-23h2-ent-cpc-m365
 tasks:
-    - name: ~/GitClone
+    - name: quickstart-devbox-tasks//git-clone
       parameters:
         repositoryUrl: https://github.com/bobotest123/LJ-fork-Deployment-Environments-PrivatePreview.git
         directory: C:\\code
