@@ -2,7 +2,7 @@ $schema: 1.0
 name: customTest
 image: acg_bo_417_test/vm-definition-test@1.0.1
 tasks:
-    - name: git-clone
+    - name: quickstart-devbox-tasks/git-clone
       description: Clone this repository into C:\SC1
       parameters:
         repositoryUrl: https://github.com/microsoft/calculator
