@@ -2,7 +2,7 @@ $schema: 1.0
 name: imagingGitClone1
 image: microsoftwindowsdesktop_windows-ent-cpc_win10-22h2-ent-cpc-m365
 tasks: 
-  - name: quickstart-devbox-tasks//git-clone
+  - name: quickstart-devbox-tasks/git-clone
     parameters:
       repositoryUrl: https://github.com/microsoft/devcenter-catalog.git
       directory: C:\\cod
