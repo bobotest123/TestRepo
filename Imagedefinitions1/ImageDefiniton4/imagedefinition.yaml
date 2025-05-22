@@ -2,7 +2,7 @@ $schema: 1.0
 name: image_GitClone4
 image: microsoftvisualstudio_visualstudioplustools_vs-2022-ent-general-win11-m365-gen2
 tasks:
-  - name: quickstart-devbox-tasks/gitclone
+  - name: quickstart-devbox-tasks/git-clone
     parameters:
       repositoryUrl: https://devdiv.visualstudio.com/OnlineServices/_git/azure-devcenter
       directory: C:\\code
